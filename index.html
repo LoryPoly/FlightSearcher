@@ -5,24 +5,55 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="CSS/style.css">
-        <title>Meteo web APP</title>
+        <link rel="stylesheet" href="CSS/input_style.css">
+        <link rel="stylesheet" href="CSS/wheater_style.css">
+        <title>Rain cast</title>
 
     </head>
 
     <body>
         <div id="container">
-            <center>
-                <h1>Meteo web APP</h1>
+            <header>Wheather App</header>
+            <div id="input-div">
+                <p id="information"></p>
+                <input type="text" placeholder="Enter city name" spellcheck="false" id="inputField">
+                <div id="separator"></div>
+                <button id="locationButton">Get device Location</button>
 
-                <div id="input_container">
-                    <p>Insert a valid city:</p>
-                    <input type="text" id="city" placeholder="Insert city">
+            </div>
+
+            <div id="div-separator"></div>
+
+            <div id="wheater-div">
+                <img src="images\image-not-found.png" alt="Wheater icon" width="125px" height="120px" id="weather_image">
+                <div id="wheater-description">-----</div>
+                <div id="location"><img src="images/map-location-pointer.svg" alt="Location-pointer" width="20px" height="25px">--,--</div>
+
+                <div id="same-div-separator"></div>
+
+                <div id="details-div">
+                    <div id="temperature-div">
+                        <p>Temperature</p>
+                        <div id="temperature-details">
+                            <img src="images/thermometer.svg" alt="Thermometer" width="20px" height="25px">
+                            <span id="temperature">---</span>
+                            <span id="degree">°C</span>
+                        </div>
+                    </div>
+
+                    <div id="humidity-div">
+                        <p>Humidity</p>
+                        <div id="humidity-details">
+                            <img src="images/droplet.svg" alt="droplet" width="20px" height="25px">
+                            <span id="humidity">---</span>
+                            <span id="percentage">%</span>
+                        </div>
+                    </div>
                 </div>
-
-                <button>Get meteo for the city</button>
-            </center>
-
+            </div>
         </div>
+
+        <script type="text/javascript" src="JS/config.js"></script>
         <script type="text/javascript" src="JS/script.js"></script>
     </body>
 </html>
