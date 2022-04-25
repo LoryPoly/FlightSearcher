@@ -1,0 +1,1 @@
+After the change goto the branch section on vs code. Click on the plus near "modifiche" set a name for the chances made (For example "concole test" for adding a console.log on the js file). Then click on the correct image, syncronise the changes with the button and then go to "esegui pull/pull" and then "esegui pull"
