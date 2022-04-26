@@ -4,26 +4,30 @@ body
     background-repeat: no-repeat;
     background-color: #212121;
     color: #fff;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    user-select:none;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
 }
 
 #container
 {
     background-color: #43affc4c;
     border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 #slide{
-    margin-left: auto;
     width: 60%;
-    padding: 10px;
 }
 #div-separator
 {
     background-color: #212121;
     height: 10px;
     width: 100%;
+    margin: 20px 0px 0px 0px;
 }
 
 #same-div-separator

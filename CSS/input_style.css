@@ -8,27 +8,17 @@ header
 
 #input-div
 {
-    border-radius: 500px;
     border-style: none;
     height: 45px;
     width: 150px;
-    padding:0px 50px;
     font-family: Helvetica Neue;  
     font-size: 10px;
-    margin:50px auto;
-    margin-left: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
-#separator
-{
-    width: 81%;
-    height: 1px;
-    background-color: #ccc;
-    margin: 20px 0;
-}
-
-#button
-{
-    margin: auto auto;
-
+#input-div * {
+    width: 100%;
 }
