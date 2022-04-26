@@ -3,15 +3,14 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
+    
 }
-
 #location
 {
-    font-size: 20px;
+    /*font-size: 20px;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center;*/
 }
 
 #details
@@ -20,4 +19,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    
+    flex-direction: row;
 }

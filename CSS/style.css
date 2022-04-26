@@ -17,22 +17,21 @@ body
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
+    flex-direction: row;
 }
 #slide{
     width: 60%;
 }
-#div-separator
+/*#div-separator
 {
     background-color: #212121;
     height: 10px;
     width: 100%;
     margin: 20px 0px 0px 0px;
 }
-
 #same-div-separator
 {
     background-color: #212121;
     height: 2px;
     width: 100%;
-}
+}*/

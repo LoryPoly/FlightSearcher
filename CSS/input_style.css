@@ -3,20 +3,22 @@ header
     font-size: 25px;
     padding: 10px 15px;
     border-bottom: 2px solid black;
+    flex-direction: column;
+    background-color: #43affc4c;
 
 }
 
 #input-div
 {
     border-style: none;
-    height: 45px;
-    width: 150px;
+    width: 300px;
     font-family: Helvetica Neue;  
-    font-size: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    margin-right: 200px;
+    margin-left: -400px;
 }
 
 #input-div * {
