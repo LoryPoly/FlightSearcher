@@ -23,16 +23,49 @@ body
 #slide{
     width: 60%;
 }
-/*#div-separator
+#wheater-div
 {
-    background-color: #212121;
-    height: 10px;
-    width: 100%;
-    margin: 20px 0px 0px 0px;
+    align-items: center;
+    justify-content: center;
 }
-#same-div-separator
+
+#details
 {
-    background-color: #212121;
-    height: 2px;
     width: 100%;
-}*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    flex-direction: row;
+}
+#weather_image
+{
+    margin-top: 10px;
+    width: 100px;
+}
+header
+{
+    font-size: 25px;
+    padding: 10px 15px;
+    border-bottom: 2px solid black;
+    flex-direction: column;
+    background-color: #ffffffc1;
+
+}
+
+#input-div
+{
+    border-style: none;
+    width: 300px;
+    font-family: Helvetica Neue;  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: 200px;
+    margin-left: -400px;
+}
+
+#input-div * {
+    width: 100%;
+}
