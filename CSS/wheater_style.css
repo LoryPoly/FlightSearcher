@@ -1,10 +1,9 @@
 #wheater-div
 {
-    display: flex;
     align-items: center;
     justify-content: center;
-    
 }
+
 #location
 {
     /*font-size: 20px;
