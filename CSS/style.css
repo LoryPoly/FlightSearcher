@@ -21,7 +21,7 @@ body
     color: white;
 }
 #slide{
-    width: 60%;
+    width: auto;
 }
 #wheater-div
 {
@@ -69,3 +69,60 @@ header
 #input-div * {
     width: 100%;
 }
+.mySlides {
+    width: 50%; 
+    display: none;
+}
+
+  @media screen and (max-width: 426px) {
+    #input-div {
+        border-style: none;
+        width: 300px;
+        font-family: Helvetica Neue;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-right: auto !important;
+        margin-left: auto !important;
+    }
+    #container {
+        background-color: #43affc4c;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        color: white;
+    }
+    #slide {
+        width: 70%;
+        margin-left: 33%;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    #input-div {
+        border-style: none;
+        width: 300px;
+        font-family: Helvetica Neue;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-right: 25px;
+        margin-left: -200px;
+    }
+  }
+  @media screen and (max-width: 1025px) {
+    #input-div {
+        border-style: none;
+        width: 300px;
+        font-family: Helvetica Neue;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        /* margin-right: 200px; */
+        margin-left: -200px;
+    }
+  }
